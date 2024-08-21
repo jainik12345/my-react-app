@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;   
+}
+
+.experience_main_container {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  background-image: url(../../../assets/images/Experties_bg.jpg);
+  margin-bottom: 50px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.experience_left_side {
+  width: 100%;
+  max-width: 45%;
+  padding: 20px;
+  border: 1px solid yellow;
+  margin-bottom: 20px;
+}
+
+.experience_left_side_top_overview {
+  width: 100%;
+  text-align: left;
+}
+
+.experience_left_side_top_overview p {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.experience_left_side_top_overview h3 {
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--white);
+}
+
+.experience_left_side_bottom_features {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.experience_left_side_bottom_feature {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+
+}
+
+.experience_left_side_bottom_feature_left_side_icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.experience_left_side_bottom_feature_right_side_text {
+  margin-left: 25px;
+}
+
+.experience_left_side_bottom_feature_right_side_text h6 {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--white);
+}
+
+.experience_left_side_bottom_feature_right_side_text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--light-gray);
+}
+
+.experience_right_side {
+  width: 100%;
+  max-width: 45%;
+  background-image: url(../../../assets/images/Experties_right_side_bg.jpg);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.experience_right_side_information {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.experience_right_side_information_1,
+.experience_right_side_information_2,
+.experience_right_side_information_3 {
+  background-color: var(--white);
+  width: 30%;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.experience_right_side_information h6 {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--black);
+}
+
+.experience_right_side_information p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--gray);
+  margin-top: -10px;
+}
+
+@media(max-width: 768px) {
+  .experience_main_container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .experience_left_side,
+  .experience_right_side {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .experience_right_side_information {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .experience_right_side_information_1,
+  .experience_right_side_information_2,
+  .experience_right_side_information_3 {
+    width: 100%;
+  }
+}
