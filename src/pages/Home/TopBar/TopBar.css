@@ -283,3 +283,92 @@
   
   /* ================================================================================== */
   
+
+  .navbar {
+    max-width: 100%;
+    width: 1160px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .navbar-left img {
+    width: 150px;
+    height: 68px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-right ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+  }
+  
+  .navbar-right ul.hide {
+    display: none;
+  }
+  
+  .navbar-right ul.show {
+    display: flex;
+    flex-direction: column;
+    background-color: blue; /* Adjust as needed */
+    position: absolute;
+    top: 75px;
+    right: 0;
+    width: 100%;
+  }
+  
+  .navbar-right ul li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .contactus_btn {
+    border: none;
+    border-radius: 6px;
+    padding: 15px 30px;
+    background-color: var(--TopBar-Light-Green);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    display: none;
+  }
+  
+  @media (max-width: 1024px) {
+    .navbar-right ul {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .navbar-right ul.show {
+      display: flex;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-left {
+      margin-left: 20px;
+    }
+  
+    .navbar-right ul.show {
+      height: auto;
+      width: 100%;
+    }
+  }
+  

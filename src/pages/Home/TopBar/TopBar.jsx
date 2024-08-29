@@ -144,24 +144,24 @@ const TopBar = () => {
       </div>
 
       <div className="navbar">
-        <div className="navbar-left">
-          <img src={navbar_logo} alt="Navbar_CheckMate_logo" />
-        </div>
-        <div className="navbar-right">
-          <ul className={hamburgerOpen ? "show" : "hide"}>
-            <li className="home_section">Home</li>
-            <li className="about_section">About</li>
-            <li className="services_section">Services</li>
-            <li className="industries_section">Industries</li>
-            <button className="contactus_btn" type="button">
-              Contact Us
-            </button>
-          </ul>
-          <div className="hamburger" onClick={toggleHamburger}>
-            <Hamburger isOpen={hamburgerOpen} />
-          </div>
+      <div className="navbar-left">
+        <img src={navbar_logo} alt="Navbar_CheckMate_logo" />
+      </div>
+      <div className="navbar-right">
+        <ul className={hamburgerOpen ? "show" : "hide"}>
+          <li className="home_section">Home</li>
+          <li className="about_section">About</li>
+          <li className="services_section">Services</li>
+          <li className="industries_section">Industries</li>
+          <button className="contactus_btn" type="button">
+            Contact Us
+          </button>
+        </ul>
+        <div className="hamburger" onClick={toggleHamburger}>
+          <Hamburger isOpen={hamburgerOpen} />
         </div>
       </div>
+    </div>
     </>
   );
 };

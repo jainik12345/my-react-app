@@ -6,18 +6,24 @@ import Testimonial from "./Testimonial/Testimonial";
 import VideoSection from "./VideoSection/VideoSection";
 import ClientSection from "./ClientSection/ClientSection";
 import Footer from "./Footer/Footer";
+import Timeline from "./Timeline/Timeline";
+import AwardsCarousel from "./AwardsCarousel/AwardsCarousel";
+import TeamMembers from "./teamMembers/teamMembers";
 
 const Home = () => {
   return (
     <div>
-      {/* <TopBar /> */}
+      {/* <TopBar />
       <HeroSection />
-      {/* <OurCoreServices /> */}
-      {/* <Experience /> */}
-      {/* <Testimonial /> */}
-      {/* <VideoSection /> */}
-      {/* <ClientSection /> */}    
-      {/* <Footer /> */}
+      <OurCoreServices />
+      <Experience />
+      <Testimonial />
+      <VideoSection />
+      <ClientSection />    
+      <Footer /> */}
+      <Timeline />
+      {/* <AwardsCarousel/> */}
+      {/* <TeamMembers/> */}
     </div>
   );
 };
