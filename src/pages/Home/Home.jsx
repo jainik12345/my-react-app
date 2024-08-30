@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import TopBar from "./TopBar/TopBar";
 import HeroSection from "./HeroSection/HeroSection";
 import OurCoreServices from "./OurCoreServices/OurCoreServices";
@@ -9,6 +10,8 @@ import Footer from "./Footer/Footer";
 import Timeline from "./Timeline/Timeline";
 import AwardsCarousel from "./AwardsCarousel/AwardsCarousel";
 import TeamMembers from "./teamMembers/teamMembers";
+import OurJourney from "./OurJourney/OurJourney";
+import Awards from "./Awards/Awards";
 
 const Home = () => {
   return (
@@ -21,9 +24,11 @@ const Home = () => {
       <VideoSection />
       <ClientSection />    
       <Footer /> */}
-      <Timeline />
+      {/* <Timeline /> */}
       {/* <AwardsCarousel/> */}
       {/* <TeamMembers/> */}
+      {/* <OurJourney /> */}
+      <Awards/>
     </div>
   );
 };

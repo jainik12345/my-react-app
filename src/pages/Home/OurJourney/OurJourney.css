@@ -1,0 +1,997 @@
+ 
+
+.ourjourney_main_container {
+
+    width: 100%;
+  
+    max-width: 1440px;
+  
+    margin: 0 auto;
+  
+    height: 300px; /* Adjusted to fit the content */
+  
+    margin-top: 50px;
+  
+    text-align: center;
+  
+    position: relative;
+  
+  }
+  
+   
+  
+  .ourjourney_title p {
+  
+    font-size: 16px;
+  
+    font-weight: 700;
+  
+    line-height: 22.4px;
+  
+    letter-spacing: 0.05em;
+  
+    color: var(--TopBar-Light-Green);
+  
+    margin: 0 auto;
+  
+  }
+  
+   
+  
+  .ourjourney_title h3 {
+  
+    font-size: 40px;
+  
+    font-weight: 700;
+  
+    line-height: 44px;
+  
+    color: var(--black);
+  
+    margin: 0 auto;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline {
+  
+    position: relative;
+  
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: center;
+  
+    height: 100%;
+  
+    margin-top: 50px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline::before {
+  
+    content: "";
+  
+    position: absolute;
+  
+    width: 100%;
+  
+    height: 1px;
+  
+    background-color: var(--TopBar-Dark-Green);
+  
+    top: 50%;
+  
+    left: 0;
+  
+    z-index: 1;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_1 {
+  
+    position: relative;
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center;
+  
+    z-index: 2;
+  
+    width: 151px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_1 h6 {
+  
+    font-size: 20px;
+  
+    font-weight: 700;
+  
+    line-height: 23.44px;
+  
+    color: var(--TopBar-Dark-Green);
+  
+    position: absolute;
+  
+    margin-top: 80px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_1_point img {
+  
+    width: 24px;
+  
+    height: 24px;
+  
+    position: relative;
+  
+    z-index: 3;
+  
+    top: 117px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_1_content {
+  
+    text-align: center;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_1_content_vertical_line {
+  
+    position: relative;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_1_content_vertical_line img {
+  
+    display: block;
+  
+    margin: 0 auto;
+  
+    margin-top: 110px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_1_content p {
+  
+    margin-top: 5px;
+  
+    font-size: 16px;
+  
+    line-height: 1.5;
+  
+  }
+  
+   
+  
+  /* Number 2 line box CSS*/
+  
+   
+  
+  .ourjourney_timeline_item_2 {
+  
+    position: relative;
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center;
+  
+    z-index: 2;
+  
+    width: 151px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_2 h6 {
+  
+    font-size: 20px;
+  
+    font-weight: 700;
+  
+    line-height: 23.44px;
+  
+    color: var(--TopBar-Dark-Green);
+  
+    position: absolute;
+  
+    margin-top: 35px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_2_point img {
+  
+    width: 24px;
+  
+    height: 24px;
+  
+   
+  
+    position: relative;
+  
+    z-index: 3;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_2_content {
+  
+    text-align: center;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_2_content_vertical_line {
+  
+    position: relative;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_2_content_vertical_line img {
+  
+    display: block;
+  
+    margin: 0 auto;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_2_content p {
+  
+    margin-top: -110px;
+  
+    font-size: 16px;
+  
+    line-height: 1.5;
+  
+  }
+  
+   
+  
+  /* Number 3 line box CSS */
+  
+   
+  
+  .ourjourney_timeline_item_3 {
+  
+    position: relative;
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center;
+  
+    z-index: 2;
+  
+    width: 151px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_3 h6 {
+  
+    font-size: 20px;
+  
+    font-weight: 700;
+  
+    line-height: 23.44px;
+  
+    color: var(--TopBar-Dark-Green);
+  
+    position: absolute;
+  
+    margin-top: 80px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_3_point img {
+  
+    width: 24px;
+  
+    height: 24px;
+  
+    position: relative;
+  
+    z-index: 3;
+  
+    top: 117px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_3_content {
+  
+    text-align: center;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_3_content_vertical_line {
+  
+    position: relative;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_3_content_vertical_line img {
+  
+    display: block;
+  
+    margin: 0 auto;
+  
+    margin-top: 110px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_3_content p {
+  
+    margin-top: 5px;
+  
+    font-size: 16px;
+  
+    line-height: 1.5;
+  
+  }
+  
+   
+  
+  /* Number 4 line box CSS*/
+  
+   
+  
+  .ourjourney_timeline_item_4 {
+  
+    position: relative;
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center;
+  
+    z-index: 2;
+  
+    width: 151px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_4 h6 {
+  
+    font-size: 20px;
+  
+    font-weight: 700;
+  
+    line-height: 23.44px;
+  
+    color: var(--TopBar-Dark-Green);
+  
+    position: absolute;
+  
+    margin-top: 35px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_4_point img {
+  
+    width: 24px;
+  
+    height: 24px;
+  
+    position: relative;
+  
+    z-index: 3;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_4_content {
+  
+    text-align: center;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_4_content_vertical_line {
+  
+    position: relative;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_4_content_vertical_line img {
+  
+    display: block;
+  
+    margin: 0 auto;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_4_content p {
+  
+    margin-top: -110px;
+  
+    font-size: 16px;
+  
+    line-height: 1.5;
+  
+  }
+  
+   
+  
+  /* Number 5 line box CSS */
+  
+   
+  
+  .ourjourney_timeline_item_5 {
+  
+    position: relative;
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center;
+  
+    z-index: 2;
+  
+    width: 151px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_5 h6 {
+  
+    font-size: 20px;
+  
+    font-weight: 700;
+  
+    line-height: 23.44px;
+  
+    color: var(--TopBar-Dark-Green);
+  
+    position: absolute;
+  
+    margin-top: 80px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_5_point img {
+  
+    width: 24px;
+  
+    height: 24px;
+  
+    position: relative;
+  
+    z-index: 3;
+  
+    top: 117px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_5_content {
+  
+    text-align: center;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_5_content_vertical_line {
+  
+    position: relative;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_5_content_vertical_line img {
+  
+    display: block;
+  
+    margin: 0 auto;
+  
+    margin-top: 110px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_5_content p {
+  
+    margin-top: 5px;
+  
+    font-size: 16px;
+  
+    line-height: 1.5;
+  
+  }
+  
+   
+  
+  /* Number 6 line box CSS*/
+  
+   
+  
+  .ourjourney_timeline_item_6 {
+  
+    position: relative;
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center;
+  
+    z-index: 2;
+  
+    width: 151px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_6 h6 {
+  
+    font-size: 20px;
+  
+    font-weight: 700;
+  
+    line-height: 23.44px;
+  
+    color: var(--TopBar-Dark-Green);
+  
+    position: absolute;
+  
+    margin-top: 35px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_6_point img {
+  
+    width: 24px;
+  
+    height: 24px;
+  
+    position: relative;
+  
+    z-index: 3;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_6_content {
+  
+    text-align: center;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_6_content_vertical_line {
+  
+    position: relative;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_6_content_vertical_line img {
+  
+    display: block;
+  
+    margin: 0 auto;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_6_content p {
+  
+    margin-top: -110px;
+  
+    font-size: 16px;
+  
+    line-height: 1.5;
+  
+  }
+  
+   
+  
+  /* Number 7 line box CSS */
+  
+   
+  
+  .ourjourney_timeline_item_7 {
+  
+    position: relative;
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center;
+  
+    z-index: 2;
+  
+    width: 151px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_7 h6 {
+  
+    font-size: 20px;
+  
+    font-weight: 700;
+  
+    line-height: 23.44px;
+  
+    color: var(--TopBar-Dark-Green);
+  
+    position: absolute;
+  
+    margin-top: 80px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_7_point img {
+  
+    width: 24px;
+  
+    height: 24px;
+  
+    position: relative;
+  
+    z-index: 3;
+  
+    top: 117px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_7_content {
+  
+    text-align: center;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_7_content_vertical_line {
+  
+    position: relative;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_7_content_vertical_line img {
+  
+    display: block;
+  
+    margin: 0 auto;
+  
+    margin-top: 110px;
+  
+  }
+  
+   
+  
+  .ourjourney_timeline_item_7_content p {
+  
+    margin-top: 5px;
+  
+    font-size: 16px;
+  
+    line-height: 1.5;
+  
+  }
+  
+   
+  
+  /* =========================================================================================== */
+  
+   
+  
+  /*
+  
+  .timeline-container {
+  
+    width: 80%;
+  
+    margin: 0 auto;
+  
+    text-align: center;
+  
+    padding: 50px 0;
+  
+  }
+  
+   
+  
+  .timeline-title {
+  
+    font-size: 2rem;
+  
+    color: #333;
+  
+    margin-bottom: 20px;
+  
+    font-weight: bold;
+  
+  }
+  
+   
+  
+  .timeline {
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+    align-items: center;
+  
+    position: relative;
+  
+    margin: 20px 0;
+  
+  }
+  
+   
+  
+  .timeline::before {
+  
+    content: "";
+  
+    position: absolute;
+  
+    top: 50%;
+  
+    left: 0;
+  
+    width: 100%;
+  
+    height: 2px;
+  
+    background-color: #6ab04c;
+  
+    transform: translateY(-50%);
+  
+    z-index: -1;
+  
+  }
+  
+   
+  
+  .timeline-item {
+  
+    flex: 1;
+  
+    text-align: center;
+  
+    position: relative;
+  
+    padding: 20px;
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center;
+  
+  }
+  
+   
+  
+  .timeline-item.top .timeline-year {
+  
+    order: 1;
+  
+  }
+  
+   
+  
+  .timeline-item.top .timeline-description {
+  
+    order: 2;
+  
+  }
+  
+   
+  
+  .timeline-item.bottom .timeline-year {
+  
+    order: 3;
+  
+  }
+  
+   
+  
+  .timeline-item.bottom .timeline-description {
+  
+    order: 1;
+  
+  }
+  
+   
+  
+  .timeline-year {
+  
+    font-size: 1.5rem;
+  
+    color: #6ab04c;
+  
+    margin-bottom: 10px;
+  
+    font-weight: bold;
+  
+  }
+  
+   
+  
+  .timeline-description {
+  
+    font-size: 1rem;
+  
+    color: #666;
+  
+  }
+  
+   
+  
+  .timeline-item::after {
+  
+    content: "";
+  
+    position: absolute;
+  
+    top: 50%;
+  
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+  
+    width: 15px;
+  
+    height: 15px;
+  
+    border-radius: 50%;
+  
+    background-color: white;
+  
+    border: 2px solid #6ab04c;
+  
+  }
+  
+   
+  
+  @media (max-width: 768px) {
+  
+    .timeline {
+  
+      flex-direction: column;
+  
+    }
+  
+   
+  
+    .timeline-item {
+  
+      padding: 10px 0;
+  
+      flex-direction: row;
+  
+      align-items: flex-start;
+  
+    }
+  
+   
+  
+    .timeline-item.top .timeline-year,
+  
+    .timeline-item.bottom .timeline-year {
+  
+      align-self: flex-start;
+  
+    }
+  
+   
+  
+    .timeline-description {
+  
+      margin-top: 5px;
+  
+    }
+  
+   
+  
+    .timeline-item::after {
+  
+      top: 100%;
+  
+      left: 50%;
+  
+      transform: translateX(-50%);
+  
+    }
+  
+   
+  
+    .timeline::before {
+  
+      height: 100%;
+  
+      width: 2px;
+  
+      top: 0;
+  
+      left: 50%;
+  
+      transform: translateX(-50%);
+  
+    }
+  
+  } */
