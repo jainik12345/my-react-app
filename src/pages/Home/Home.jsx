@@ -12,6 +12,8 @@ import AwardsCarousel from "./AwardsCarousel/AwardsCarousel";
 import TeamMembers from "./teamMembers/teamMembers";
 import OurJourney from "./OurJourney/OurJourney";
 import Awards from "./Awards/Awards";
+import Inquiries from "./Inquiries/Inquiries";
+import Touch from "./Touch/Touch";
 
 const Home = () => {
   return (
@@ -27,8 +29,12 @@ const Home = () => {
       {/* <Timeline /> */}
       {/* <AwardsCarousel/> */}
       {/* <TeamMembers/> */}
-      {/* <OurJourney /> */}
-      <Awards/>
+      {/* <Awards/> */}
+
+
+      {/* <OurJourney/> */}
+      {/* <Inquiries/> */}
+      {/* <Touch/> */}
     </div>
   );
 };
