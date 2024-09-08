@@ -1,0 +1,199 @@
+.fire_safety_service_faqs_main_container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.fire_safety_service_faqs_main_container::before,
+.fire_safety_service_faqs_main_container::after {
+  content: "";
+  width: 275px;
+  height: 600px;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  opacity: 100%;
+}
+
+.fire_safety_service_faqs_main_container::before {
+  background: url(../../../../assets/icons/service_section_faqs_left_side.svg);
+  left: -7%;
+  top: 30%;
+  background-repeat: no-repeat;
+}
+
+.fire_safety_service_faqs_main_container::after {
+  background: url(../../../../assets/icons/service_section_faqs_right_side.svg);
+  right: -7.2%;
+  top: -72.5%;
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+
+.fire_safety_service_faqs_title p {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--TopBar-Light-Green);
+  margin: 0 auto 5px;
+  text-transform: uppercase;
+}
+
+.fire_safety_service_faqs_title h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--black);
+  margin: auto;
+}
+
+.fire_safety_service_faqs_content {
+  padding: 10px;
+  margin-top: 50px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.fire_safety_service_faqs_content_item {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  position: relative;
+  background-color: var(--white);
+  padding: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.fire_safety_service_faqs_content_item.open {
+  background-color: var(--white);
+}
+
+.fire_safety_service_faqs_content_text {
+  text-align: left;
+  flex: 1;
+  padding-left: 20px;
+}
+
+.fire_safety_service_faqs_content_text h6 {
+  font-size: 34px;
+  font-weight: 400;
+  color: var(--black);
+  margin: 0 0 10px;
+}
+
+.fire_safety_service_faqs_content_text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--gray);
+  margin: 0;
+}
+
+.fire_safety_service_faqs_content_icon {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: var(--white);
+  border: 1px solid var(--TopBar-Dark-Green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.fire_safety_service_faqs_content_icon.open {
+  background-color: var(--Faqs-bg);
+  transition: background-color 0.6s ease-in-out;
+}
+
+.fire_safety_service_faqs_content_icon img {
+  width: 35%;
+}
+
+.fire_safety_service_faqs_content_line {
+  width: calc(100% - 40px);
+  height: 1px;
+  background: url(../../../../assets/icons/service_section_faqs_horizontal_line.svg)
+    no-repeat center;
+  position: absolute;
+  bottom: -18%;
+  left: 20px;
+}
+
+@media (max-width: 1200px) {
+  .fire_safety_service_faqs_main_container::before,
+  .fire_safety_service_faqs_main_container::after {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fire_safety_service_faqs_main_container::before,
+  .fire_safety_service_faqs_main_container::after {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .fire_safety_service_faqs_title h3 {
+    font-size: 32px;
+  }
+
+  .fire_safety_service_faqs_content_text h6 {
+    font-size: 28px;
+  }
+
+  .fire_safety_service_faqs_content_text p {
+    font-size: 14px;
+  }
+
+  .fire_safety_service_faqs_content_item {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .fire_safety_service_faqs_content_icon {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .fire_safety_service_faqs_content_line {
+    width: calc(100% - 20px);
+    bottom: -10%;
+  }
+}
+
+@media (max-width: 480px) {
+  .fire_safety_service_faqs_title h3 {
+    font-size: 24px;
+  }
+
+  .fire_safety_service_faqs_content_text h6 {
+    font-size: 22px;
+  }
+
+  .fire_safety_service_faqs_content_text p {
+    font-size: 12px;
+  }
+
+  .fire_safety_service_faqs_content_item {
+    margin-top: 20px;
+  }
+
+  .fire_safety_service_faqs_content_icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .fire_safety_service_faqs_content_icon img {
+    width: 30%;
+  }
+
+  .fire_safety_service_faqs_content_line {
+    bottom: -5%;
+  }
+}

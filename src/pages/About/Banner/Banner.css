@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.banner_main_container {
+  max-width: 100%;
+  width: 1440px;
+  height: 262px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  background: linear-gradient(
+      90.93deg,
+      #3f7d20 18.18%,
+      rgba(9, 18, 66, 0.2) 64.92%
+    ),
+    url(../../../assets/icons/about_section_banner_image.svg);
+  align-items: center;
+  justify-content: left;
+  color: white;
+  font-size: 24px;
+  margin: 0 auto ;
+  padding: 0 20px; /* Add padding to prevent content from touching edges */
+  box-sizing: border-box; /* Include padding in width/height calculations */
+}
+
+.banner_subtext {
+  font-family: "Rubik", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 65.18px;
+  margin-left: 100px;
+}
+
+@media (max-width: 1200px) {
+  .banner_main_container {
+    height: 200px; /* Adjust height for medium screens */
+    font-size: 20px;
+  }
+
+  .banner_subtext {
+    font-size: 45px;
+    margin-left: 50px; /* Adjust margin for medium screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .banner_main_container {
+    height: 180px; /* Adjust height for smaller screens */
+    font-size: 18px;
+    padding: 0 15px; /* Adjust padding for smaller screens */
+  }
+
+  .banner_subtext {
+    font-size: 40px;
+    margin-left: 30px; /* Adjust margin for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .banner_main_container {
+    height: 150px; /* Further adjust height for small screens */
+    font-size: 16px;
+    padding: 0 10px; /* Further adjust padding for small screens */
+  }
+
+  .banner_subtext {
+    font-size: 35px;
+    margin-left: 20px; /* Further adjust margin for small screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .banner_main_container {
+    height: 120px; /* Adjust height for very small screens */
+    font-size: 14px;
+    padding: 0 5px; /* Adjust padding for very small screens */
+  }
+
+  .banner_subtext {
+    font-size: 30px;
+    margin-left: 10px; /* Adjust margin for very small screens */
+    text-align: center; /* Center text for very small screens */
+    width: 100%; /* Ensure the text container uses full width */
+  }
+}

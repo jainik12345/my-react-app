@@ -1,0 +1,386 @@
+.fire_safety_our_service_main_container {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  margin: 0 auto;
+  padding: 25px 25px 25px 0px;
+  background: url(../../../../assets/icons/service_section_our_services_bg.svg),
+    linear-gradient(180deg, #72b01d 0%, #357960 100%);
+  position: relative;
+}
+
+.fire_safety_our_service_title p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--white);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.fire_safety_our_service_title h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  color: var(--white);
+  margin: 0 auto -10px;
+  text-align: center;
+}
+
+.fire_safety_our_service_menu_bar {
+  display: flex;
+  gap: 25px;
+  margin-top: 70px;
+}
+
+.fire_safety_our_service_left_side_menu {
+  width: 330px;
+  height: auto;
+  position: relative;
+}
+
+/* Dropdown Button */
+.fire_safety_dropdown_button {
+  background-color: var(--TopBar-Dark-Green);
+  color: var(--white);
+  border: none;
+  /* padding: 10px; */
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 95%;
+  display: none;
+  margin: 0 auto;
+  margin-left: 25px;
+  text-align: center;
+}
+
+/* Dropdown Menu */
+.fire_safety_dropdown_menu {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  position: absolute;
+  top: 100%;
+  left: 2.5%;
+  width: 72%;
+  background-color: var(--white);
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  z-index: 1000;
+  display: none;
+}
+
+.fire_safety_dropdown_menu.open {
+  display: block;
+}
+
+.fire_safety_dropdown_menu li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #e7e7e7;
+  font-size: 18px;
+}
+
+.fire_safety_dropdown_menu li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Desktop Menu */
+.fire_safety_desktop_menu {
+  display: block;
+}
+
+.fire_safety_desktop_menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fire_safety_desktop_menu ul li {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  margin-left: 20px;
+  transition: font-size, background-color;
+  line-height: 2;
+}
+
+/* add new */
+.fire_safety_desktop_menu ul li.selected {
+  color: var(--white);
+  font-size: 18.5px;
+  font-weight: 800;
+}
+.fire_safety_desktop_menu ul li.selected::before {
+  content: "";
+  background: url(../../../../assets/icons/service_page_our_service_vertical_line.svg);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 12px;
+  position: absolute;
+  left: -20px;
+  top: 27px;
+  transition: width;
+}
+
+.fire_safety_desktop_menu ul li::before {
+  content: "";
+  background: url(../../../../assets/icons/service_page_our_service_vertical_line.svg);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  left: -20px;
+  top: 27px;
+  transition: width;
+}
+
+.fire_safety_desktop_menu ul li:hover::before {
+  height: 14px;
+}
+
+.fire_safety_our_service_right_side_services {
+  border: 1px solid #e7e7e7e7;
+  background-color: var(--white);
+  flex: 1;
+  text-align: left;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 0px 60px 0px 20px;
+  height: 510px;
+  animation: fadeInUp 2s ease-out forwards;
+  animation-delay: 0.5s;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+.fire_safety_our_service_right_side_services::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fire_safety_our_service_right_side_services_title p {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--TopBar-Dark-Green);
+  margin: 0 auto;
+}
+
+.fire_safety_our_service_right_side_services_content p {
+  font-size: 18px;
+  color: var(--gray);
+}
+
+.fire_safety_our_service_right_side_services_content span {
+  font-size: 26px;
+  color: var(--TopBar-Dark-Green);
+}
+
+.fire_safety_our_service_right_side_services_content ul li {
+  font-size: 18px;
+  color: var(--gray);
+  line-height: 2;
+}
+
+.fire_safety_out_service_button_icon {
+  position: absolute;
+  gap: 10px;
+  display: flex;
+  margin-left: 220px;
+  margin-top: 50px;
+}
+.fire_safety_our_service_left_side_up_button {
+  width: 40px;
+  height: 58px;
+  border-radius: 14px;
+  background-color: var(--white);
+  padding: 9.5px 15px 9.5px 15px;
+  border: 1px solid var(--white);
+  cursor: pointer;
+}
+.fire_safety_our_service_left_side_up_button img {
+  height: 22px;
+  width: 20px;
+  margin-left: -5px;
+  margin-top: 8px;
+}
+.fire_safety_our_service_left_side_down_button {
+  width: 40px;
+  height: 58px;
+  background: transparent;
+  padding: 9.5px 15px 9.5px 15px;
+  border: 1px solid var(--white);
+  padding: 9.5px 15px 9.5px 15px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.fire_safety_our_service_left_side_down_button img {
+  height: 22px;
+  width: 20px;
+  margin-left: -6px;
+  margin-top: 8px;
+}
+
+/* Responsive Styles */
+/* For tablets and smaller screens */
+
+@media (max-width: 1024px) {
+  .fire_safety_our_service_right_side_services {
+    border: 1px solid #e7e7e7e7;
+    background-color: var(--white);
+    flex: 1;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px 5px 0px 15px;
+    overflow-y: auto;
+    margin: 0px;
+  }
+  .fire_safety_out_service_button_icon {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .fire_safety_dropdown_button {
+    display: block;
+  }
+
+  .fire_safety_desktop_menu {
+    display: none;
+  }
+
+  .fire_safety_our_service_menu_bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fire_safety_our_service_left_side_menu {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .fire_safety_dropdown_menu {
+    width: 100%;
+  }
+
+  .fire_safety_our_service_right_side_services {
+    padding: 20px;
+    margin: 0px 0px 20px 25px;
+  }
+
+  .fire_safety_our_service_title h3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .fire_safety_our_service_title p {
+    font-size: 14px;
+  }
+
+  .fire_safety_our_service_title h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .fire_safety_dropdown_button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .fire_safety_our_service_right_side_services {
+    padding: 15px;
+  }
+
+  .fire_safety_our_service_right_side_services_title p {
+    font-size: 24px;
+  }
+
+  .fire_safety_our_service_right_side_services_content p {
+    font-size: 16px;
+  }
+
+  .fire_safety_our_service_right_side_services_content span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fire_safety_our_service_right_side_services {
+    padding: 10px 5px 0px 15px;
+    margin: 0;
+    height: auto;
+  }
+
+  .fire_safety_out_service_button_icon {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .fire_safety_dropdown_button {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 22px;
+    width: 95%;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .fire_safety_desktop_menu {
+    display: none;
+  }
+
+  .fire_safety_dropdown_menu {
+    width: 96%;
+    margin-left: 8.5px;
+    top: 100%;
+  }
+  .fire_safety_our_service_right_side_services {
+    margin-left: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .fire_safety_our_service_title p {
+    font-size: 14px;
+  }
+
+  .fire_safety_our_service_title h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .fire_safety_dropdown_button {
+    font-size: 14px;
+    margin-left: 22px;
+    width: 95%;
+  }
+
+  .fire_safety_our_service_right_side_services_title p {
+    font-size: 24px;
+  }
+
+  .fire_safety_our_service_right_side_services_content p {
+    font-size: 16px;
+  }
+
+  .fire_safety_our_service_right_side_services_content span {
+    font-size: 20px;
+  }
+}

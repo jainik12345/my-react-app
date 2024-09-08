@@ -1,0 +1,99 @@
+.fire_safety_service_overview_main_container {
+  width: 100%;
+  max-width: 1165px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  padding: 0 15px;
+  margin-top: 100px;
+}
+
+.fire_safety_service_overview_title {
+  position: relative;
+}
+
+.fire_safety_service_overview_title::before {
+  content: "";
+  background: url(../../../../assets/icons/about_section_ovreview_dots.svg);
+  width: 443px;
+  height: 590px;
+  position: absolute;
+  top: -85%;
+  left: -8.5%;
+  /* opacity: 10; */
+  /* background-size: cover; */
+}
+
+.fire_safety_service_overview_title p {
+  font-weight: 700;
+  line-height: 22.4px;
+  letter-spacing: 0.05em;
+  color: var(--TopBar-Light-Green);
+  margin: 0 auto -30px;
+  text-transform: uppercase;
+}
+
+.fire_safety_service_overview_title h3 {
+  color: var(--black);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.fire_safety_service_overview_content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--gray);
+  text-align: left;
+  justify-content: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .fire_safety_service_overview_title h3 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .fire_safety_service_overview_title p {
+    font-size: 16px;
+    margin: 0 auto -20px;
+  }
+
+  .fire_safety_service_overview_content p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .fire_safety_service_overview_title::before {
+    width: 300px;
+    height: 400px;
+    left: -5%;
+    top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .fire_safety_service_overview_title h3 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .fire_safety_service_overview_title p {
+    font-size: 14px;
+    margin: 0 auto -15px;
+  }
+
+  .fire_safety_service_overview_content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .fire_safety_service_overview_title::before {
+    width: 200px;
+    height: 300px;
+    left: -2%;
+    top: -10%;
+  }
+}

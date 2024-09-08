@@ -1,0 +1,427 @@
+/* .contactus_talk_main_container {
+  width: 100%;
+  max-width: 1160px;
+  height: 528px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 50px;
+  text-align: center;
+}
+.contactus_talk_title {
+  text-align: center;
+}
+.contactus_talk_title p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: var(--TopBar-Light-Green);
+  margin: 0 auto;
+}
+.contactus_talk_title h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  color: var(--black);
+  margin: 0 auto;
+}
+
+.contactus_talk_content {
+  width: 1160px;
+  height: 402.02px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.contactus_talk_content_1,
+.contactus_talk_content_2,
+.contactus_talk_content_3 {
+  width: 382px;
+  height: 359px;
+  background-color: var(--TopBar-Dark-Green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contactus_talk_content_1:hover,
+.contactus_talk_content_2:hover,
+.contactus_talk_content_3:hover {
+  width: 396px;
+  height: 402.02px;
+  background-color: var(--TopBar-Light-Green);
+}
+
+.contactus_talk_content_1_image {
+  width: 72px;
+  height: 72px;
+  background-color: var(--white);
+  margin: 0 auto;
+  border-radius: 100%;
+  position: relative;
+}
+.contactus_talk_content_1_image img {
+  width: 32.5px;
+  height: 25px;
+  top: 35%;
+  left: 27%;
+  position: absolute;
+}
+
+.contactus_talk_content_1_title h6 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  color: var(--white);
+  margin: 10px;
+}
+.contactus_talk_content_1_title p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.44px;
+  color: var(--white);
+}
+
+.contactus_talk_content_2_image {
+  width: 72px;
+  height: 72px;
+  background-color: var(--white);
+  margin: 0 auto;
+  border-radius: 100%;
+  position: relative;
+}
+.contactus_talk_content_2_image img {
+  width: 25px;
+  height: 37.5px;
+  top: 28%;
+  left: 32%;
+  position: absolute;
+}
+
+.contactus_talk_content_2_title h6 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  color: var(--white);
+  margin: 10px;
+}
+.contactus_talk_content_2_title p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.44px;
+  color: var(--white);
+}
+
+.contactus_talk_content_3_image {
+  width: 72px;
+  height: 72px;
+  background-color: var(--white);
+  margin: 0 auto;
+  border-radius: 100%;
+  position: relative;
+}
+.contactus_talk_content_3_image img {
+  width: 30px;
+  height: 30px;
+  top: 33%;
+  left: 28%;
+  position: absolute;
+}
+
+.contactus_talk_content_3_title h6 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  color: var(--white);
+  margin: 10px;
+}
+.contactus_talk_content_3_title p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.44px;
+  color: var(--white);
+} 
+   */
+
+/* Contact Us Page General Styles */
+.contactus_talk_main_container {
+  width: 100%;
+  max-width: 1160px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 50px;
+  text-align: center;
+  padding: 20px;
+}
+.contactus_talk_title {
+  text-align: center;
+}
+.contactus_talk_title p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: var(--TopBar-Light-Green);
+  margin: 0 auto;
+}
+.contactus_talk_title h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  color: var(--black);
+  margin: 0 auto;
+}
+
+.contactus_talk_content {
+  width: 100%;
+  height: 402.02px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Card Hover Effect */
+.contactus_talk_content_1,
+.contactus_talk_content_2,
+.contactus_talk_content_3 {
+  width: 382px;
+  height: 350px;
+  background-color: var(--TopBar-Dark-Green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contactus_talk_content_1:hover,
+.contactus_talk_content_2:hover,
+.contactus_talk_content_3:hover {
+  width: 396px;
+  height: 402.02px;
+  background-color: var(--TopBar-Light-Green);
+}
+
+.contactus_talk_content_1_image,
+.contactus_talk_content_2_image,
+.contactus_talk_content_3_image {
+  width: 72px;
+  height: 72px;
+  background-color: var(--white);
+  margin: 0 auto;
+  border-radius: 100%;
+  position: relative;
+}
+
+.contactus_talk_content_1_image img,
+.contactus_talk_content_2_image img,
+.contactus_talk_content_3_image img {
+  position: absolute;
+}
+
+/* Title & Text */
+.contactus_talk_content_1_title h6,
+.contactus_talk_content_2_title h6,
+.contactus_talk_content_3_title h6 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.contactus_talk_content_1_title p,
+.contactus_talk_content_2_title p,
+.contactus_talk_content_3_title p {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+/* Media Queries for Responsive Design */
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .contactus_talk_content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactus_talk_content_1,
+  .contactus_talk_content_2,
+  .contactus_talk_content_3 {
+    width: 80%;
+    margin-bottom: 20px; /* Add space between sections */
+  }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .contactus_talk_content_1,
+  .contactus_talk_content_2,
+  .contactus_talk_content_3 {
+    width: 90%;
+    margin-bottom: 15px;
+  }
+
+  .contactus_talk_title h3 {
+    font-size: 28px;
+  }
+
+  .contactus_talk_content_1_title h6,
+  .contactus_talk_content_2_title h6,
+  .contactus_talk_content_3_title h6 {
+    font-size: 20px;
+  }
+
+  .contactus_talk_content_1_title p,
+  .contactus_talk_content_2_title p,
+  .contactus_talk_content_3_title p {
+    font-size: 18px;
+  }
+}
+
+/* Small Mobile (max-width: 450px) */
+@media (max-width: 450px) {
+  .contactus_talk_title h3 {
+    font-size: 24px;
+  }
+
+  .contactus_talk_content_1,
+  .contactus_talk_content_2,
+  .contactus_talk_content_3 {
+    width: 100%;
+  }
+
+  .contactus_talk_content_1_title h6,
+  .contactus_talk_content_2_title h6,
+  .contactus_talk_content_3_title h6 {
+    font-size: 18px;
+  }
+
+  .contactus_talk_content_1_title p,
+  .contactus_talk_content_2_title p,
+  .contactus_talk_content_3_title p {
+    font-size: 16px;
+  }
+}
+
+/* add new css */
+
+.contactus_talk_expanded_content {
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* add new css */
+
+.contactus_talk_expanded_content {
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.map_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.map_section_left {
+  width: 40%;
+  text-align: left;
+}
+
+.map_section_right iframe {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.arrow_buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.arrow_button {
+  background-color: #68b046;
+  border: none;
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+
+.arrow_button:hover {
+  background-color: #4e8b30;
+}
+
+/* Add active state styles to make the selected div more prominent */
+.contactus_talk_content_1.active,
+.contactus_talk_content_2.active,
+.contactus_talk_content_3.active {
+  background-color: var(--TopBar-Light-Green);
+  width: 396px;
+  height: 402.02px;
+  transition: all 0.3s ease;
+}
+
+.contactus_talk_content_1,
+.contactus_talk_content_2,
+.contactus_talk_content_3 {
+  width: 382px;
+  height: 350px;
+  background-color: var(--TopBar-Dark-Green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .contactus_talk_content {
+    flex-direction: column;
+  }
+
+  .map_section {
+    flex-direction: column;
+  }
+
+  .map_section_right iframe {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .arrow_buttons {
+    flex-direction: column;
+  }
+
+  .arrow_button {
+    margin: 5px 0;
+  }
+}

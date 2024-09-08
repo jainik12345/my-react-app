@@ -1,9 +1,13 @@
-import MegaMenu from "./MegaMenu/MegaMenu"
+import FireSafetyServices from "./FireSafetyServices/FireSafetyServices"
+import SecurityServices from "./SecurityServices/SecurityServices"
+// import MegaMenu from "./MegaMenu/MegaMenu"
 
 const Services = () => {
   return (
     <div>
-      <MegaMenu/>
+      <FireSafetyServices/>
+      {/* <SecurityServices/> */}
+      {/* <MegaMenu/> */}
     </div>
   )
 }
