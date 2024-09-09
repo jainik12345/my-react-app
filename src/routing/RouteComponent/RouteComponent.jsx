@@ -9,6 +9,8 @@ import About from "./../../pages/About/About";
 import Services from "../../pages/Services/Services";
 import ContactUs from "../../pages/ContactUs/ContactUs";
 import IndustriesMain from "../../pages/IndustriesMain/IndustriesMain";
+import SecurityServices from "../../pages/Services/SecurityServices/SecurityServices";
+import FireSafetyServices from "../../pages/Services/FireSafetyServices/FireSafetyServices";
 
 const RouteComponent = () => {
   const WebsitePage = ({ component: Component }) => {
@@ -16,7 +18,7 @@ const RouteComponent = () => {
       <div>
         <Header />
         <Component />
-        <Footer />  
+        <Footer />
       </div>
     );
   };
@@ -26,8 +28,22 @@ const RouteComponent = () => {
         <Route path="/" element={<WebsitePage component={Home} />} />
         <Route path="/about" element={<WebsitePage component={About} />} />
         <Route path="/service" element={<WebsitePage component={Services} />} />
-        <Route path="/contact" element={<WebsitePage component={ContactUs} />}  />
-        <Route path="/industries" element={<WebsitePage component={IndustriesMain} />} />
+        <Route
+          path="/services/security-service"
+          element={<WebsitePage component={SecurityServices} />}
+        />
+        <Route
+          path="/services/fire-safety-service"
+          element={<WebsitePage component={FireSafetyServices} />}
+        />
+        <Route
+          path="/contact"
+          element={<WebsitePage component={ContactUs} />}
+        />
+        <Route
+          path="/industries"
+          element={<WebsitePage component={IndustriesMain} />}
+        />
       </Routes>
     </>
   );

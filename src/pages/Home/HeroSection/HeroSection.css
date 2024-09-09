@@ -92,9 +92,7 @@
 .hero-section-leftside-btn {
   margin-top: 18px;
   border: none;
-  align-content: center;
   text-align: center;
-  justify-content: center;
   width: 163px;
   height: 53px;
   border-radius: 6px;
@@ -104,7 +102,28 @@
   font-weight: 700;
   font-size: 19px;
   cursor: pointer;
-  gap: 10px;
+
+  transition: all 0.5s;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.hero-section-leftside-btn::after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 8%;
+  right: 50px;
+  transition: 0.5s;
+  font-size: 34px;
+}
+
+.hero-section-leftside-btn:hover {
+  padding-right: 20px;
+}
+.hero-section-leftside-btn:hover::after {
+  opacity: 1;
+  right: 0;
 }
 
 .hero-section-navigationbar {
@@ -244,8 +263,7 @@
     color: var(--white);
     font-weight: 700;
     font-size: 19px;
-    cursor: pointer;
-    gap: 10px;
+    /* cursor: pointer; */
   }
 }
 @media (max-width: 590px) {
@@ -317,3 +335,4 @@
     margin-top: -10px;
   }
 }
+

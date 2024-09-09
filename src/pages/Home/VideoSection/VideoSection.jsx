@@ -1,4 +1,5 @@
 // import React from "react";
+import { Link } from "react-router-dom";
 import "./VideoSection.css";
 // import play_btn from "../../../assets/icons/video_section_play_btn.svg";
 
@@ -21,7 +22,12 @@ const VideoSection = () => {
         <div className="video_section_right_side">
           <div className="video_section_right_side_82">
             <div className="video_section_right_side_bg_color">
-              {/* <img src={play_btn} alt="" /> */}
+              <Link
+                target="_blank"
+                to="https://youtu.be/LUgLOa6hN7Y?si=c_KzLI_Hq5-G1qcE"
+              >
+                {/* <img src={play_btn} alt="Play & Pause Button" /> */}
+              </Link>
             </div>
           </div>
         </div>
