@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import "./HeroSection.css";
 import "../../../assets/color/root_color.css";
