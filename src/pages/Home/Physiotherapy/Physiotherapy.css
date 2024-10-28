@@ -1,0 +1,183 @@
+.physiotherapy-main-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    justify-content: center;
+    position: relative;
+    border: 1px solid #c41b1b;
+}
+
+.physiotherapy-title {
+    font-size: 28px;
+    color: black;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.physiotherapy-title-icon {
+    background: #6c7d02;
+    border-radius: 50%;
+    border: none;
+    width: 35px;
+    height: 35px;
+    font-size: 26px;
+    color: #ffffff;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    right: 5%;
+    transition: 0.6s;
+}
+
+.physiotherapy-title-icon:hover {
+    background: #b4ba3d;
+    color: #ffffff;
+}
+
+.physiotherapy-card-section {
+    width: 98%;
+    border: 1px solid #ccc;
+    margin-top: 3%;
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.physiotherapy-card-left {
+    width: 45%;
+    padding: 25px;
+}
+
+.physiotherapy-card-left-title,
+.physiotherapy-card-left-description {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.physiotherapy-card-left-title label,
+.physiotherapy-card-left-description label {
+    color: var(--Greyscale-900);
+    font-family: Urbanist;
+    font-size: var(--popupform-label);
+    font-weight: 600;
+    width: 150px; /* Adjusted width for labels */
+    margin-right: 10px;
+}
+
+.physiotherapy-card-left-title input,
+.physiotherapy-card-left-description input {
+    padding: 10px;
+    font-size: 16px;
+    width: calc(100% - 170px); /* Adjusted input width based on label width */
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.physiotherapy-card-left-title input:focus,
+.physiotherapy-card-left-description input:focus {
+    border-color: #aaa;
+    outline: none;
+}
+
+.physiotherapy-card-right-btn {
+    background: #6c7d02;
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* RIGHT SIDE */
+.physiotherapy-card-right {
+    width: 55%;
+    padding: 25px;
+}
+
+.physiotherapy-card-right-date {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+}
+
+.physiotherapy-card-right-start-date label,
+.physiotherapy-card-right-end-date label {
+    color: var(--Greyscale-900);
+    font-family: Urbanist;
+    font-size: var(--popupform-label);
+    font-weight: 600;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.date-picker {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.physiotherapy-card-right-notes-section h3 {
+    padding: 20px 25px;
+    color: var(--Greyscale-900);
+    font-family: Urbanist;
+    font-size: var(--popupform-label);
+    font-weight: 600;
+}
+
+.physiotherapy-card-right-notes-entry {
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.physiotherapy-card-right-notes-entry span {
+    font-weight: 900;
+    width: 100px;
+    font-size: 16px;
+}
+
+.physiotherapy-card-right-notes-entry input {
+    margin-left: 10px;
+    padding: 5px;
+    width: 280px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.delete-section-btn {
+    font-size: 30px;
+    position: absolute;
+    right: 25px;
+    cursor: pointer;
+    rotate: 45deg;
+}

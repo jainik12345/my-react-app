@@ -7,6 +7,7 @@ import VideoSection from "./VideoSection/VideoSection";
 import ClientSection from "./ClientSection/ClientSection";
 
 import Header from "../Header/Header";
+import Physiotherapy from "./Physiotherapy/Physiotherapy";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Testimonial />
       <VideoSection />
       <ClientSection />
+      <Physiotherapy/>
     </div>
   );
 };
